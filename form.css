@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+* {
+  justify-content: center;
+}
+
+body {
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+  border-style: outset;
+  border-color: antiquewhite;
+  background-color: rgb(213, 198, 189);
+}
+nav ul li a {
+  color: rgb(123, 76, 15);
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+#logo {
+  max-width: 40%;
+  height: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+h1 {
+  background-color: antiquewhite;
+  color: rgb(58, 21, 21);
+  padding: 10px 20px;
+  justify-content: center;
+  display: flex;
+}
+.payment {
+  padding: 20px 10px 5px 0px;
+}
+
+form {
+  padding: 40px 100px;
+  display: inline-block;
+  justify-content: center;
+  background-color: rgb(213, 198, 189);
+  box-shadow: 0 0 48px 2px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 1% 35%;
+}
+
+.style {
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  color: rgb(58, 21, 21);
+}
+
+#login_error {
+  color: red;
+}
+
+.not_visible {
+  display: none;
+}
+
+.price-checkboxes {
+  display: block;
+}
+
+#buttons {
+  display: flex;
+}
+
+.submit {
+  color: rgb(123, 76, 15);
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: rgba(245, 234, 220, 0.994);
+  border-radius: 10%;
+  border-style: outset;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.buttonList {
+  color: rgb(123, 76, 15);
+  padding: 5px 10px;
+  margin: 10px 10px;
+  font-size: 12px;
+  background-color: rgba(245, 234, 220, 0.994);
+  border-radius: 100%;
+  border-style: outset;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#error {
+  color: red;
+  font-size: 12px;
+}
+
+#noteFieldAdd {
+  display: flex;
+  padding: 10px 0px;
+}
+
+#noteFieldRemove {
+  display: flex;
+  padding: 10px 10px;
+}

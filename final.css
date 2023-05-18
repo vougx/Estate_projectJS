@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+body {
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+main {
+  padding: 80px 100px;
+  display: inline-block;
+  justify-content: flex;
+  background-color: rgb(213, 198, 189);
+  box-shadow: 0 0 48px 2px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 1% 30%;
+  color: rgb(58, 21, 21);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+  border-style: outset;
+  border-color: antiquewhite;
+  background-color: rgb(213, 198, 189);
+}
+nav ul li a {
+  color: rgb(123, 76, 15);
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#logo {
+  max-width: 40%;
+  height: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.image {
+  max-width: 100%;
+  border-style: groove;
+  border-color: bisque;
+  border-radius: 5%;
+}
+
+.button {
+  color: rgb(123, 76, 15);
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgba(245, 234, 220, 0.994);
+  border-radius: 9%;
+  border-style: outset;
+}
+
+h1 {
+  padding: 3px 20px;
+}
+
+h2 {
+  padding: 3px 20px;
+}
+
+#name,
+#email,
+#date,
+#offer,
+#finalPrice {
+  justify-content: center;
+  display: flex;
+}
+
+.style {
+  justify-content: center;
+  display: flex;
+}

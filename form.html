@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="form.js"></script>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="index.html">
+        <img id="logo" src="logo.png" alt="logo" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Kup</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/agnieszka-p%C4%99dziwiatr-7528b41b4/"
+              >Kontakt</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="h1">Formularz zakupu</h1>
+    <form id="form">
+      <div class="style"><label for="name">Imię i Nazwisko:</label></div>
+      <div class="style">
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <div class="style">
+        <label class="email" for="email">Adres e-mail:</label>
+      </div>
+      <div class="style"><input type="email" id="email" name="email" /></div>
+
+      <div class="style">
+        <label class="date" for="date">Data odbioru:</label>
+      </div>
+      <div class="style"><input type="date" id="date" name="date" /></div>
+
+      <div class="style" class="payments">Sposób płatności:</div>
+      <div class="style">
+        <input type="radio" id="credit" name="payment" value="credit" />
+        <label for="credit">Kredyt</label>
+      </div>
+      <div class="style">
+        <input type="radio" id="cash" name="payment" value="cash" />
+        <label class="cash" for="cash">Gotówka</label>
+      </div>
+      <p class="style">
+        Każdy dodatek do wyposażenia mieszkania to dopłata w wysokości 10 000 zł
+      </p>
+      <div class="style">Wyposażenie mieszkania:</div>
+      <div id="price-checkboxes" class="style">
+        <input type="checkbox" id="addition" name="addition" value="addition" />
+        <label id="style1" class="note" for="addition">Klimatyzacja</label>
+        <input type="checkbox" id="addition" name="addition" value="addition" />
+        <label id="style2" class="note" for="addition">Taras</label>
+        <input type="checkbox" id="addition" name="addition" value="addition" />
+        <label id="style3" class="note" for="addition">Piwnica</label>
+      </div>
+      <p class="style">Cena mieszkania (zł):</p>
+      <p id="offer" class="style"></p>
+      <div id="buttons" class="style">
+        <input id="back" class="submit" type="submit" value="Powrót" />
+        <input id="buy" class="submit" type="submit" value="Kupuję" />
+      </div>
+      <div id="error"></div>
+    </form>
+  </body>
+</html>
