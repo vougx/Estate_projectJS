@@ -5,11 +5,6 @@ const $cash = document.getElementById("cash");
 const $form = document.getElementById("form");
 const $errorElement = document.getElementById("error");
 const $dateInput = document.getElementById("date");
-const $placeholder = document.getElementById("formPlaceholder");
-const $notesPlus = document.getElementById("notesPlus");
-const $notesMinus = document.getElementById("notesMinus");
-const $plusBtn = document.getElementById("plusBtn");
-const $minusBtn = document.getElementById("minusBtn");
 const $offerPrice = document.getElementById("offer");
 const store = localStorage;
 
@@ -152,7 +147,6 @@ checkboxes.forEach(function (button, index) {
     });
 
     const checkedElements = checkedArray.length;
-    console.log("test", checkedArray, checkedElements);
 
     const price = store.getItem("price");
 
@@ -163,5 +157,3 @@ checkboxes.forEach(function (button, index) {
     $offerPrice.innerText = finalPrice;
   });
 });
-
-console.log("chceckbox", checkboxes);
